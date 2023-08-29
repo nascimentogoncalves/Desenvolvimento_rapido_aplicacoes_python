@@ -5,9 +5,9 @@
 #Para cada um destes cenários, o grupo deve elencar as vantagens e desvantagens douso de RAD para o cenário, e decidir se eles recomendam o uso de RAD para o cenário.
 #Resposta:
 #(i)
-
+Para esse sistema de registro é recomendado o uso do RAD pois não será necessário equipes técnicamente muito qualificadas, o comprometimento das partes pode ser melor gerenciado, e não é necessário uma interface muito exigente.
 #(ii)
-
+#Para esse sistema de registro não é recomendado o uso do RAD pois a requisião de sistemas modulares dificulta projetos de grande escalas. Para este projeto também será exigido foco na interface, que não é uma característica do método RAD.
 
 #Atividade Autônoma Aura: 
 #Questão 1) 
