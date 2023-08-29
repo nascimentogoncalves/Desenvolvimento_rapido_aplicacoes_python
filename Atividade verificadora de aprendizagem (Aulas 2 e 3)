@@ -3,11 +3,28 @@
 #(i) sistema de registro de notas de alunos parauma instituição de ensino pequena com algumas centenas de alunos e 
 #(ii) sistema de registro de notasde alunos para uma instituição de ensino com centenas de milhares de alunos e unidades espalhadaspor todo o país. 
 #Para cada um destes cenários, o grupo deve elencar as vantagens e desvantagens douso de RAD para o cenário, e decidir se eles recomendam o uso de RAD para o cenário.
+#Resposta:
+#(i)
+
+#(ii)
+
+
 #Atividade Autônoma Aura: 
-#Questão 1) A metodologia de desenvolvimento rápido de software (RAD)tem como objetivo acelerar o processo de entrega de software através de um processo que prioriza odesenvolvimento no curto prazo com entregas que incorporam conceitos bem debatidos com aspartes envolvidas. 
+#Questão 1) 
+#A metodologia de desenvolvimento rápido de software (RAD)tem como objetivo acelerar o processo de entrega de software através de um processo que prioriza odesenvolvimento no curto prazo com entregas que incorporam conceitos bem debatidos com aspartes envolvidas. 
 #Portanto a RAD possui diversas vantagens, em especial, em relação aos métodostradicionais de desenvolvimento. Nesse sentido, selecione a opção que NÃO é uma vantagem dametodologia RAD:
 #Atividade verificadora de aprendizagem
 #a) Integração antecipada do sistema e redução de riscos.
 #b) Adaptabilidade e compartimentação dos componentes do sistema.c) Versões iterativas e menor tempo de colocação no mercado.
 #d) Feedback constante do usuário.
 #e) Ter como pré-requisito equipes tecnicamente muito qualificadas.
+#Resposta: Letra e);
+
+#Questão 2) 
+#Para que a RAD possa cumprir o seu objetivo que é o de reduzir o tempo de entrega deprodutos, ela precisa de ferramentas que facilitem o desenvolvimento de software. Um dos recursosmais importantes para atingir tal objetivo é o uso de framework. 
+#Em relação aos frameworks paradesenvolvimento de aplicações RAD, selecione a opção CORRETA:
+#a) A escolha de um framework sempre deve levar em consideração as necessidades do projeto quese deseja implementar. Portanto essa escolha tem que estar baseada nas bibliotecas,documentação disponível e a linguagem de programação disponibilizadas para desenvolver oprojeto.
+#b) Independe da linguagem de programação escolhida é essencial que tenha como base o Python porse tratar de uma linguagem moderna e bem documentada.
+#c) Atualmente, qualquer projeto precisa levar em consideração o modelo cliente-servidor, portantoa escolha do framework deve levar isso em consideração.
+#d) Qualquer projeto RAD implementado em Python deve utilizar os frameworks Tkinter e Django.e) A escolha de um framework não deve levar em consideração as necessidades do projeto que sedeseja implementar. Ela tem que estar baseada nas bibliotecas, documentação disponível e alinguagem de programação disponibilizadas para desenvolver o projeto.
+#Resposta:
