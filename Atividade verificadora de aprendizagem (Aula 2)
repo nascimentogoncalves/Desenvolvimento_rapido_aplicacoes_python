@@ -3,6 +3,7 @@
 #(i) sistema de registro de notas de alunos parauma instituição de ensino pequena com algumas centenas de alunos e 
 #(ii) sistema de registro de notasde alunos para uma instituição de ensino com centenas de milhares de alunos e unidades espalhadaspor todo o país. 
 #Para cada um destes cenários, o grupo deve elencar as vantagens e desvantagens douso de RAD para o cenário, e decidir se eles recomendam o uso de RAD para o cenário.
+
 #Resposta:
 #(i)
 Para esse sistema de registro é recomendado o uso do RAD pois não será necessário equipes técnicamente muito qualificadas, o comprometimento das partes pode ser melor gerenciado, e não é necessário uma interface muito exigente.
@@ -18,6 +19,7 @@ Para esse sistema de registro é recomendado o uso do RAD pois não será necess
 #b) Adaptabilidade e compartimentação dos componentes do sistema.c) Versões iterativas e menor tempo de colocação no mercado.
 #d) Feedback constante do usuário.
 #e) Ter como pré-requisito equipes tecnicamente muito qualificadas.
+
 #Resposta: Letra e);
 
 #Questão 2) 
@@ -27,4 +29,5 @@ Para esse sistema de registro é recomendado o uso do RAD pois não será necess
 #b) Independe da linguagem de programação escolhida é essencial que tenha como base o Python porse tratar de uma linguagem moderna e bem documentada.
 #c) Atualmente, qualquer projeto precisa levar em consideração o modelo cliente-servidor, portantoa escolha do framework deve levar isso em consideração.
 #d) Qualquer projeto RAD implementado em Python deve utilizar os frameworks Tkinter e Django.e) A escolha de um framework não deve levar em consideração as necessidades do projeto que sedeseja implementar. Ela tem que estar baseada nas bibliotecas, documentação disponível e alinguagem de programação disponibilizadas para desenvolver o projeto.
-#Resposta:
+
+#Resposta: a);
