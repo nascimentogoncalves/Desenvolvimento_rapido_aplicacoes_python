@@ -1,6 +1,13 @@
 #1. Desenvolva um programa em Python que escreva em disco um arquivo com números ordenados crescentemente de 1 a 100. Cada número deve ser separado por “;”. O arquivo deve se chamar “crescente.txt”.
+import os
 
+arquivo = open(r"C:\Users\lucas.nascimento\Desktop\Lucas\crescente.txt","w")
 
+quantidade = int(101)
+
+with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\crescente.txt","w") as arquivo:
+   for elemento in range(quantidade):
+    arquivo.write(str(elemento)+';')
 
 
 #2. Voltando ao cenário apresentado na situação-problema, que trata de um sistema de registro de notas de alunos em uma pequena instituição de ensino, desenvolver uma solução capaz de persistir (inserir) e ler os dados de notas de alunos em arquivos.
