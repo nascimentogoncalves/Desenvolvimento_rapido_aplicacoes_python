@@ -1,0 +1,13 @@
+#AULA2;
+#Em grupos os alunos devem considerar 2 cenários : 
+#(i) sistema de registro de notas de alunos parauma instituição de ensino pequena com algumas centenas de alunos e 
+#(ii) sistema de registro de notasde alunos para uma instituição de ensino com centenas de milhares de alunos e unidades espalhadaspor todo o país. 
+#Para cada um destes cenários, o grupo deve elencar as vantagens e desvantagens douso de RAD para o cenário, e decidir se eles recomendam o uso de RAD para o cenário.
+#Atividade Autônoma Aura: 
+#Questão 1) A metodologia de desenvolvimento rápido de software (RAD)tem como objetivo acelerar o processo de entrega de software através de um processo que prioriza odesenvolvimento no curto prazo com entregas que incorporam conceitos bem debatidos com aspartes envolvidas. 
+#Portanto a RAD possui diversas vantagens, em especial, em relação aos métodostradicionais de desenvolvimento. Nesse sentido, selecione a opção que NÃO é uma vantagem dametodologia RAD:
+#Atividade verificadora de aprendizagem
+#a) Integração antecipada do sistema e redução de riscos.
+#b) Adaptabilidade e compartimentação dos componentes do sistema.c) Versões iterativas e menor tempo de colocação no mercado.
+#d) Feedback constante do usuário.
+#e) Ter como pré-requisito equipes tecnicamente muito qualificadas.
