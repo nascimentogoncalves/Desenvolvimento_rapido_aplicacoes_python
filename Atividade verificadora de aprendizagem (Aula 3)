@@ -21,3 +21,42 @@ with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\crescente.txt","w") as arqui
 # Buscar um aluno pelo nome.
 
 #Resposta:
+import pandas as pd
+def cadastrar():
+    with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\Instituicao_de_ensino.txt","a") as arquivo:
+        arquivo.write(input("Insira o nome do aluno(a):")+";")
+        arquivo.write(input("Insira o email do aluno(a)")+";")
+        arquivo.write(input("Insira o curso do aluno(a):")+"\n")
+def listar():
+    with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\Instituicao_de_ensino.txt") as arquivo:
+        return([line.split(";")[0] for line in arquivo])
+def pesquisar():
+    print("Qual o nome deseja pesquisar:")
+    nome = (input())
+    with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\Instituicao_de_ensino.txt") as arquivo:
+        print([line.split(";")[0] for line in arquivo if nome in line.split(";")[0]])
+def inserir_nota():
+    try:
+        lista = listar()
+        df = pd.DataFrame(columns=["aluno"],data=lista)
+        print(df)
+        print("Selecione o número referente ao aluno:")
+        selecao = input() 
+        print("Insira a nota:")
+        nota = input()
+        df.loc[df.index == int(selecao), 'nota'] = nota
+        aluno = df[df.index == int(selecao)]
+        print(aluno)
+        print(df)
+        with open(r"C:\Users\lucas.nascimento\Desktop\Lucas\Notas.txt","a") as arquivo:
+            arquivo.write(aluno.apply(lambda x: ';'.join(list(x)), axis=1).to_string(index=False)+"\n")
+    except:
+        print("Valor inexistente.")
+while True:
+    try:
+        opcoes = {1:cadastrar,2:listar,3:pesquisar,4:inserir_nota}
+        print("Qual ação você deseja realizar?\n1-Cadastrar aluno:\n2-Listar todos os alunos:\n3-Pesquisar aluno:\n4-Inserir nota:")
+        escolha = (input())
+        print(opcoes[int(escolha)]())
+    except:
+        print("Opção inválida.")
